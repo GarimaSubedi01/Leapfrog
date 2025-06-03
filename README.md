@@ -16,3 +16,7 @@ INSERT INTO students (name, age) VALUES
 ('Dustin', 20);
 
 SELECT * FROM students WHERE age > 18;
+
+### 💻 Day 2
+
+**Objective:** Using Where clause, and, or, not, in, between, like, order by
