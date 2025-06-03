@@ -10,4 +10,4 @@
 
 ### 💻 Day 3
 
-**Objective:** Updating, deleting and altering the table.
+**Objective:** Update records in a table, Delete specific rows and alter table to add new columns.
