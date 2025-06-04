@@ -11,3 +11,9 @@
 ### 💻 Day 3
 
 **Objective:** Update records in a table, Delete specific rows and alter table to add new columns.
+
+
+### 💻 Day 4
+
+**Objective:** Use constraints like PRIMARY KEY, FOREIGN KEY, NOT NULL, UNIQUE, DEFAULT and create related tables.
+
