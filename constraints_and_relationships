@@ -1,0 +1,17 @@
+ALTER TABLE students  
+ADD COLUMN status VARCHAR(10) DEFAULT 'active';
+
+CREATE TABLE courses (
+    course_id INT AUTO_INCREMENT PRIMARY KEY,
+    course_name VARCHAR(100) NOT NULL,
+    student_id INT,
+    FOREIGN KEY (student_id) REFERENCES students(id)
+);
+
+INSERT INTO courses (course_name, student_id) VALUES
+    ('Database', 2),  -- Mike's course
+    ('Dsa', 3),       -- Robin_Updated's course
+    ('Webtech', 5);   -- Tima's course
+
+INSERT INTO courses (course_name, student_id) VALUES
+    ('Networking', 8);  -- Fails: no student with id=8
