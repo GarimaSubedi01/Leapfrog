@@ -1,0 +1,5 @@
+(SELECT students.id, courses.course_name
+ FROM students LEFT JOIN courses ON students.id = courses.student_id)
+UNION
+(SELECT students.id, courses.course_name
+ FROM students RIGHT JOIN courses ON students.id = courses.student_id);
