@@ -17,3 +17,8 @@
 
 **Objective:** Use constraints like PRIMARY KEY, FOREIGN KEY, NOT NULL, UNIQUE, DEFAULT and create related tables.
 
+
+### 💻 Day 5
+
+**Objective:** Using JOINS like INNER JOIN, LEFT JOIN, RIGHT JOIN and FULL OUTER JOIN.
+
