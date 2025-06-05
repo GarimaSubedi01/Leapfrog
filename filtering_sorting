@@ -1,0 +1,12 @@
+SELECT * FROM students WHERE age = 18;
+SELECT * FROM students WHERE name = 'Alice';
+SELECT * FROM students WHERE age > 18 AND name = 'Sarah';
+SELECT * FROM students WHERE age > 18 OR name = 'John';
+SELECT name, age, email FROM students WHERE age NOT IN (17);
+SELECT * FROM students WHERE age IN (18, 20, 22);
+SELECT * FROM students WHERE age BETWEEN 18 AND 25;
+SELECT * FROM students WHERE name LIKE 'A%';
+SELECT * FROM students WHERE name LIKE '%a';
+SELECT * FROM students WHERE name LIKE '%n%';
+SELECT name, age FROM students ORDER BY age DESC;
+SELECT name, age FROM students ORDER BY name ASC;
