@@ -1,0 +1,4 @@
+SELECT age, COUNT(*) AS student_count
+FROM students
+GROUP BY age
+HAVING student_count = 1;
