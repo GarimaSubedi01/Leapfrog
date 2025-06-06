@@ -22,3 +22,7 @@
 
 **Objective:** Using JOINS like INNER JOIN, LEFT JOIN, RIGHT JOIN and FULL OUTER JOIN.
 
+
+### 💻 Day 6
+
+**Objective:** Using aggregation, GROUP BY + HAVING, and subqueries.
