@@ -1,6 +1,6 @@
 -- Changed Robin's name to 'Robin_Updated' where age=16
 UPDATE students SET name = 'Robin_Updated' WHERE age = 16;
--- Removed all students with age=18 (Dustin and Alice)
+-- Removed all students with age=18
 DELETE FROM students WHERE age = 18;
 -- Added a new 'email' column (NULL values by default)
 ALTER TABLE students ADD email VARCHAR(100);
