@@ -1,0 +1,11 @@
+-- Total students
+SELECT COUNT(*) FROM students;
+
+-- Average age
+SELECT AVG(age) FROM students;
+
+-- Age range
+SELECT MIN(age), MAX(age) FROM students;
+
+-- Total age sum
+SELECT SUM(age) FROM students;
